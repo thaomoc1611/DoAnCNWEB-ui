@@ -1,0 +1,19 @@
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto 80px;
+  max-width: 1200px;
+  min-width: 1024px;
+  width: 100%;
+  list-style: none;
+  li {
+    float: left;
+    width: 15%;
+    margin: 0 10px;
+    border-radius: 12px;
+    background: #323232;
+    height: 220px;
+    position: relative;
+  }
+}
