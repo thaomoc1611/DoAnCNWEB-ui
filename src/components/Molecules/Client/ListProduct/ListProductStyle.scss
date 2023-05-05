@@ -1,0 +1,22 @@
+ul.list-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto 80px;
+  max-width: 1200px;
+  min-width: 1024px;
+  width: 100%;
+  list-style: none;
+
+  li.list-product-item {
+    float: left;
+    margin: 0 10px;
+    border-radius: 12px;
+    background: #323232;
+    position: relative;
+
+    &:hover {
+      box-shadow: -4px -4px 8px rgba(134,134,134,.2), 4px 4px 8px rgba(28,28,28,.4);
+    }
+  }
+}

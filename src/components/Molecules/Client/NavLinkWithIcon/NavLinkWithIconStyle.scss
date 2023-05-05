@@ -1,0 +1,25 @@
+.nav-link {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin: 0 auto 50px;
+  text-align: center;
+  width: max-content;
+
+  &-icon {
+    background-position: 0 -45px;
+    width: 32px;
+    height: 38px;
+    display: inline-block;
+    margin: 0 auto 9px;
+    color: #fff;
+  }
+
+  &-title {
+    color: #fff;
+    font-size: 36px;
+    line-height: 62px;
+    font-family: SF Pro Display,sans-serif;
+    margin-left: 2px;
+  }
+}
