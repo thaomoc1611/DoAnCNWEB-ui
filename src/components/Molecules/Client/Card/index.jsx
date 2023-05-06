@@ -7,7 +7,7 @@ import { products } from "../../../../assets/images";
 function Card({ img, title, href, price = null }) {
   return (
     <div className="card">
-      <NavLink to={href} className="card-nav">
+      <NavLink to={href} className="card-link">
         <div className="card-img">
           <Image source={products.image1} className="card-img-sp" />
         </div>

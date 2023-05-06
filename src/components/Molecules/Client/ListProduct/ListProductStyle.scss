@@ -1,4 +1,4 @@
-ul {
+ul.list-product {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,13 +7,16 @@ ul {
   min-width: 1024px;
   width: 100%;
   list-style: none;
-  li {
+
+  li.list-product-item {
     float: left;
-    width: 15%;
     margin: 0 10px;
     border-radius: 12px;
     background: #323232;
-    height: 220px;
     position: relative;
+
+    &:hover {
+      box-shadow: -4px -4px 8px rgba(134,134,134,.2), 4px 4px 8px rgba(28,28,28,.4);
+    }
   }
 }

@@ -4,9 +4,9 @@ import "./ListProductStyle.scss";
 
 const ListProduct = ({products}) => {
   return (
-    <ul>
-      {products.map((product) => (
-        <li>
+    <ul className="list-product">
+      {products.map((product, index) => (
+        <li key={index} className="list-product-item">
           <Card
             img={product.img}
             href={product.href}
